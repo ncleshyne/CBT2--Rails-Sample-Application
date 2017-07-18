@@ -40,8 +40,10 @@ All the Blog Application Files can be found at the 'blog' folder.
    ```
    git clone https://github.com/ncleshyne/CBT2--Rails-Sample-Application.git
    ```
-2. Open Git Bash. Navigate to the path where this downloaded repo is located. Go to the "blog" folder by typing
-   `$ cd blog`.
+2. Open Git Bash. Navigate to the path where this downloaded repo is located. Go to the "blog" folder by typing:
+   ```
+   $ cd blog
+   ```
    Note: If you haven't installed git yet, [go here first](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 3. Start a web server on your development machine by running the following in the blog directory:
    ```
@@ -55,6 +57,6 @@ All the Blog Application Files can be found at the 'blog' folder.
    
    Click "My blog" and prepare to be amazed by the world of Rails! 
 
-#####Note:
 
-   I included a simple authentication system by Rails. Therefore, clicking "New Article" will prompt you to enter a username and          password. Simply type "Nicole" in the username field and "Secret" in the password. That's all. Please enjoy!
+##### Note:
+   I included a simple authentication system by Rails. Therefore, clicking "New Article" will prompt you to enter a username and      password. Simply type "Nicole" in the username field and "Secret" in the password. That's all. Please enjoy!
