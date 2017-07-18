@@ -1,6 +1,7 @@
 # Coding Bootcamp Term 2 - Ruby on Rails Sample Blog
 
 My First Rails Application from [Ruby on Rails Guides](http://guides.rubyonrails.org/getting_started.html)
+
 What is "Ruby on Rails"?
 ------------------------
 Rails is a web application development framework written in the Ruby language. It is designed to make programming web applications easier by making assumptions about what every developer needs to get started. It allows you to write less code while accomplishing more than many other languages and frameworks. Experienced Rails developers also report that it makes web application development more fun.
@@ -35,5 +36,21 @@ The Blog Application
 --------------------
 All the Blog Application Files can be found at the 'blog' folder.
 #### Running the App
-1. Open Git Bash. Note: If you haven't installed git yet, [go here first](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+1. Clone this repo using your Powershell or (Terminal) by typing this code:
+   ```
+   git clone https://github.com/ncleshyne/CBT2--Rails-Sample-Application.git
+   ```
+2. Open Git Bash. Navigate to the path where this downloaded repo is located. Go to the "blog" folder by typing `$ cd blog`.
+   > Note: If you haven't installed git yet, [go here first](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+3. Start a web server on your development machine by running the following in the blog directory:
+   ```
+   $ bin/rails server
+   ```
+   ![Rails Server](https://www.dropbox.com/s/24dxped80uety7x/server.png?dl=0 "Rails Server")
+4. Finally, open the blog application by opening a browser window and navigating to http://localhost:3000.
+   You should be able to see something like this:
+   ![Local Host](https://www.dropbox.com/s/3s68e75ybv9tls7/local.png?dl=0 "Local Host")
+   Click "My blog" and prepare to be amazed by the world of Rails! 
 
+Note:
+   I included a simple authentication system by Rails. Therefore, clicking "New Article" will prompt you to enter a username and          password. Simply type "Nicole" in the username field and "Secret" in the password. That's all. Please enjoy!
