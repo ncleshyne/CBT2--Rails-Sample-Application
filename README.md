@@ -46,10 +46,10 @@ All the Blog Application Files can be found at the 'blog' folder.
    ```
    $ bin/rails server
    ```
-   ![Rails Server](https://www.dropbox.com/s/24dxped80uety7x/server.png?dl=0 "Rails Server")
+   ![Rails Server](https://www.dropbox.com/s/24dxped80uety7x/server.png "Rails Server")
 4. Finally, open the blog application by opening a browser window and navigating to http://localhost:3000.
    You should be able to see something like this:
-   ![Local Host](https://www.dropbox.com/s/3s68e75ybv9tls7/local.png?dl=0 "Local Host")
+   ![Local Host](https://www.dropbox.com/s/3s68e75ybv9tls7/local.png "Local Host")
    Click "My blog" and prepare to be amazed by the world of Rails! 
 
 Note:
