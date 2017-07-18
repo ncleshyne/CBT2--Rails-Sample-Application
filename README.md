@@ -58,5 +58,5 @@ All the Blog Application Files can be found at the 'blog' folder.
    Click "My blog" and prepare to be amazed by the world of Rails! 
 
 
-##### Note:
+#### Note:
 > I included a simple authentication system by Rails. Therefore, clicking "New Article" will prompt you to enter a username and      password. Simply type "Nicole" in the username field and "Secret" in the password. That's all. Please enjoy!
